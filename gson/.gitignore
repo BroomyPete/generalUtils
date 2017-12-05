@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-/.project
-/.classpath
-=======
 /.settings/
 /target/
 /.classpath
 /.project
 /sampleFile.pdf
->>>>>>> refs/heads/master
+
