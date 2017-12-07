@@ -57,7 +57,7 @@ public class UnresponsiveUIwThread extends JFrame {
    /** The entry main method */
    public static void main(String[] args) {
       // Run GUI codes in Event-Dispatching thread for thread safety
-      javax.swing.SwingUtilities.invokeLater(new Runnable() {
+      SwingUtilities.invokeLater(new Runnable() {
          @Override
          public void run() {
             new UnresponsiveUIwThread();  // Let the constructor do the job
